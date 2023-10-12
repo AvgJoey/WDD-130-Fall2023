@@ -1,13 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Mooli&family=Raleway&family=Titillium+Web&family=Young+Serif&display=swap');
+/**
+-- heading-font: 'Raleway' , sans-serif;
+-- paragraph-font: 'Raleway' , sans-serif;
+**/
+
 #content{
     max-width: 1600px;
     margin: 0 auto;
 }
 body{
     background-color: #e0e0e0;
+    font-family: 'Raleway',sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 header{
     background-color: #073b4c;
 }
+#logo-link{
+    padding-top: 5px;
+}
+
 nav a:hover{
     background-color: #073b4c;
     color: #ffd166;
@@ -16,6 +30,11 @@ nav a:hover{
     background-color: #e0e0e0;
     color: #654C4F;
     text-decoration: none;
+    font-family: 'Raleway' , sans-serif; 
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover{
     background-color: #e0e0e0;
@@ -27,10 +46,14 @@ nav a:hover{
 }
 .msg{
     background-color: #e0e0e0;
+    line-height: 1.5em;
+    padding: 35px;
 }
 footer{
     background-color: #243119;
     color: #ffd166;
+    padding: 25px 50px;
+    margin-top: 200px;
 }   
 footer a {
     font-size: 1.2em;
@@ -45,6 +68,7 @@ nav a{
     text-align: center;
     color: #d9c2a3;
     text-decoration: none;
+    padding: 35px;
 }
 #hero-msg h1, #hero-msg h4{
     text-align: center;
@@ -57,6 +81,9 @@ main section{
 }
 .home-title{
     color: #654C4F;
+    font-family: 'Raleway' , sans-serif; 
+    font-size: 2em;
+    margin-top: 10px;
 }
 h4{
     color: #654C4F;
@@ -66,15 +93,20 @@ h4{
 }
 .msg p{
     color: #654C4F;
+    font-family: 'Raleway' , sans-serif; 
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 h2{
     color: #654C4F;
+    margin: 0;
 }
 #hero-img{
     width: 100%;
 }
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 footer p {
     font-size: 1.2em;
@@ -84,4 +116,16 @@ footer p a:hover {
 }   
 .logo{
     width: 80px;
+}
+footer .social img {
+    padding-top: 15px;
+}
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid #d9c2a3;
+}
+main section img {
+    box-sizing: border-box;
 }
